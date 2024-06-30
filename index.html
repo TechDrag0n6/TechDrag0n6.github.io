@@ -47,8 +47,20 @@
             background-color: rgba(0, 0, 0, 0.7);
             padding: 10px 20px;
             border-radius: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-align: center;
+        }
+        .photo-placeholder {
+            background-color: #ccc;
+            width: 120px;
+            height: 160px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 0.9em;
+            border: 2px solid #fff;
         }
         .menu {
             margin-bottom: 20px;
@@ -112,8 +124,9 @@
 <body>
     <div class="main-content">
         <div class="left-side">
-            <header class="portfolio-title">
-                Tech_drag0n6's Portfolio
+            <header>
+                <div class="portfolio-title">Tech_drag0n6's Portfolio</div>
+                <div class="photo-placeholder">Photo</div>
             </header>
             
             <nav class="menu" id="menu">
